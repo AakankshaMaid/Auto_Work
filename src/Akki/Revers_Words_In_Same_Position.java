@@ -2,7 +2,7 @@ package Akki;
 
 public class Revers_Words_In_Same_Position {
 	public static void main(String[] args) {
-		String s1="Chalo ye bhi thik hai..!!🙃";
+		String s1="Chalo ye bhi thik hai";
 		String[] s2=s1.split(" ");
 		
 		for(int i=0;i<=s2.length-1;i++)
