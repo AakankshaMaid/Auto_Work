@@ -44,6 +44,7 @@ public class String_class_methods
 		//use to combain two strings---->concat()
 		System.out.println(s5.replace("abc", "xyz"));  //abc-->xyz  
 		//use to replace the string characters--->replace()
+		
 	}
 
 }

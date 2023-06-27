@@ -21,5 +21,9 @@ public class sample1
 	System.out.println(s1==s3);  //false
 	System.out.println(s4==s5);  //false
 	System.out.println(s1==s6);  //false
+	
+	
+	//== Compare location
+	//.equals() method compare data and case
 	}
 }

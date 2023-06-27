@@ -19,7 +19,7 @@ public class LCM_and_HCF {
 				 gcd=i;		//or HCF
 			}	
 		}
-		System.out.println("HCF or GCD is "+a+" and "+b+" is "+gcd);
+		System.out.println("HCF or GCD of "+a+" and "+b+" is "+gcd);
 		
 		lcm=a*b/gcd;
 		System.out.println("LCM is "+lcm);
