@@ -5,15 +5,26 @@ import java.util.Arrays;
 public class compairTwoIntArray 
 {
 	public static void main(String[] args) {
-		int ar1[]= {10,20,30,40};
-		int ar2[]= {20,30,10,40};
-		int ar3[]= {20,30,10,40};
-		
-		System.out.println(Arrays.equals(ar1, ar2)); //false
-		System.out.println(Arrays.equals(ar2, ar3));//true
-		System.out.println(Arrays.equals(ar1, ar3));//false
-		
+		 int num=371;
+		 int ams=0;
+		     for(int i=num;i>0;i=i/10)
+		     {
+		      int rem=i%10;
+		       ams=ams+rem*rem*rem;
+		     }
+		    System.out.println(ams);
+		    if(num==ams)
+		    {
+		      System.out.println("num is amstrom");
+		    }
+		    else
+		    {
+		     System.out.println("num is not amstrom ");
+		    }
+		  }
+		    
+
 	}
 	
 
-}
+
